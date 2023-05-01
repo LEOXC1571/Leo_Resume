@@ -76,33 +76,69 @@
   %     \end{cvitems}
   %   }
 %---------------------------------------------------------
-  \cventry
-    {第一作者} % Job title
-    {基于图对比学习的标签感知推荐系统} % Organization
-    {WSDM-23 (CCF-B)} % Location
-    {2022年5月至今} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {基于GNN和对比学习范式，构建TAGCL模型进一步提升基于标签感知的个性化推荐性能；}
-        \item {分别构建<用户-标签>和<标签-商品>的子图，通过添加经过softmax归一化的随机扰动进行表征增强，用于建立对比学习任务；}
-        \item {分别基于交叉熵损失，基于Tag负采样的二部图损失和改进知识图谱算法TransT，构建目标函数；}
-        \item {实验显示模型较标签感知推荐领域的SOTA模型至少提升5\%。}
-      \end{cvitems}
-    }
+\cventry
+  {第一作者} % Job title
+  {基于图对比学习的公平的标签感知推荐系统} % Organization
+  {JCR-Q1(TOP)\&CCF-B (Accepted)} % Location
+  {2022年5月-2022年12月} % Date(s)
+  {
+    \begin{cvitems} % Description(s) of tasks/responsibilities
+      \item {基于GNN和对比学习范式，构建TAGCL模型进一步提升基于标签感知的个性化推荐性能，同时显著提升推荐结果的公平性；}
+      \item {分别构建<用户-标签>和<标签-商品>的子图，通过添加经过softmax归一化的随机扰动进行表征增强，用于建立对比学习任务；}
+      \item {分别基于交叉熵损失，基于Tag负采样的二部图损失和改进知识图谱算法TransT，构建目标函数，分别用于推动生成更公平的推荐和提
+      升二部图之间的一致性；}
+      \item {实验显示模型推荐精度较标签感知推荐领域的SOTA模型至少提升5\%，同时在歧视性较强的数据集上显著提升结果的公平性。}
+    \end{cvitems}
+  }
 %---------------------------------------------------------
 \cventry
-{队长} % Job title
-{OGB-LSC NeurlPS 2022} % Organization
-{竞赛} % Location
-{2022年6月至今} % Date(s)
-{
-  \begin{cvitems} % Description(s) of tasks/responsibilities
-    \item {对超大规模分子数据进行表针学习，预测目标分子Homo-Lumo Gap；}
-    \item {运用分子2D拓扑信息与3D结构信息，构建具备3D等变性的神经网络。}
-    % \item {分别基于交叉熵损失，基于Tag负采样的二部图损失和改进知识图谱算法TransT，构建目标函数。}
-    % \item {实验显示模型较标签感知推荐领域的SOTA模型提升较大。}
-  \end{cvitems}
-}
+  {队长} % Job title
+  {OGB-LSC NeurlPS 2022} % Organization
+  {竞赛} % Location
+  {2022年8月-2022年11月} % Date(s)
+  {
+    \begin{cvitems} % Description(s) of tasks/responsibilities
+      \item {对超大规模分子数据(超200W)进行表针学习，预测目标分子能量隙；}
+      \item {构建HFAGNN模型，运用Hybrid模块，学习原子自身化学性质，同时运用Bessel方程提取2元组与3元组间的原子3D信息，将分子2D拓扑
+      信息与3D结构信息结合，在满足三维空间等变性的同时实现对分子性质的高效学习；}
+      \item {使用多卡并行实现高效运算，在较小规模参数量的情况下取得榜单第11名。}
+    \end{cvitems}
+  }
+%---------------------------------------------------------
+
+\
+
+\cventry
+  {负责人} % Job title
+  {基于扩散模型的3D分子生成} % Organization
+  {论文(撰写中)} % Location
+  {2022年11月-至今} % Date(s)
+  {
+    \begin{cvitems} 
+      \item {基于扩散生成模型，构建去噪扩散概率模型，生成创新且有效的3D分子结构；}
+      \item {将扩散模型自身特点与原子间相互作用力本质相结合，构建出既能学习不同原子化学特性，又能学习任意原子间的相互作用强弱的全局
+      注意力机制，构建创新的等变图网络作为去噪过程的内核；}
+      \item {改进原有采样策略，引导模型在生成大分子过程中做出更多探索，提升生成分子的创新性。}
+    \end{cvitems}
+  }
+
+  \cventry
+    {组长} % Job title
+    {电商用户商品价值评估与基于图神经网络的个性化推荐系统} % Organization
+    {全国统计专业研究生案例大赛} % Location
+    {2022年2月-2022年3月} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {基于真实电商数据，实现商品从盈利能力、畅销水平和退货率等方面的价值评估，同时基于价值对用户群体进行有效划分，最后对用户
+        进行个性化推荐。}
+        % \item {基于一个真实电商平台交易数据，通过特征工程分别提取基于商品和用户的16维特征。}
+        \item {通过PCA降维与K-Means++聚类，实现对商品从盈利能力，畅销水平和退货率等多个维度的有效划分。}
+        \item {运用改进RFM模型，对用户特征做特征交叉，实现对用户从消费能力，下单频率和退货水平等多维度的有效划分。}
+        \item {基于LightGCN模型，创新性的提出了WideGCN模型，实现对基于商品和用户的16维特征这一旁信息的有效利用。推荐性能较SOTA模型有
+        2\%到5\%的提升。}
+        \item {该项目获全国三等奖}
+      \end{cvitems}
+    }
 %---------------------------------------------------------
   % \cventry
   %   {自由职业渗透测试人员} % Job title
