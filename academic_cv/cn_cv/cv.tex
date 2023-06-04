@@ -1,0 +1,95 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+%----------------------------------------------------------------
+% CONFIGURATIONS
+%----------------------------------------------------------------
+% A4纸张大小默认情况下，'letterpaper'使用信纸
+\documentclass[10pt, a4paper,AutoFakeBold]{awesome-cv}
+
+\usepackage{hyperref}
+% 使用geometry配置页边距
+\geometry{left=1.0cm, top=.5cm, right=1.0cm, bottom=0.5cm, footskip=.5cm}
+
+% 指定包含字体的位置
+\fontdir[fonts/]
+
+% 高光颜色
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+% \colorlet{awesome}{awesome-emerald}
+% 如果要指定自己的颜色，请取消注释
+\definecolor{awesome}{rgb}{0.2,0.4,0.7}
+
+% 文本的颜色
+% 如果要指定自己的颜色，请取消注释
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% 如果要将社交信息分隔符从“|”更改为其他内容
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%----------------------------------------------------------------
+%	如果要将社交信息分隔符从“|”更改为其他内容
+%	如果不需要，请注释下面的任何一行
+%----------------------------------------------------------------
+% 可用选项: circle|rectangle,edge/noedge,left/right
+\photo[circle,edge,right]{./pics/leo.jpg}
+\name{徐}{璨}
+\position{机器学习{\enskip\cdotp\enskip}数据挖掘}
+% \address{英国伦敦贝克街221号}
+
+\mobile{13812688705}
+\email{leoxc1571@163.com}
+\homepage{leoxc1571.github.io}
+\github{leoxc1571}
+% \linkedin{posquit0}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+% \quote{``成为你想在世界上看到的改变。"}
+
+
+%----------------------------------------------------------------
+\begin{document}
+
+% 打印具有以上个人信息的标题
+% 提供可选参数以更改对齐方式(C: center, L: left, R: right)
+\makecvheader
+
+% 打印带有3个参数的页脚(<left>, <center>, <right>)
+% 如果不需要，请将其中任何一项留空
+\makecvfooter
+  {\today}
+  {徐璨~~~·~~~履历}
+  {\thepage}
+
+
+%----------------------------------------------------------------
+%	CV 目录
+%	每个部分是单独导入的，依次打开每个文件修改内容
+%----------------------------------------------------------------
+\input{cv/education.tex}
+\input{cv/skills.tex}
+% \input{cv/presentation.tex}
+\input{cv/internship.tex}
+\input{cv/experience.tex}
+% \input{cv/extracurricular.tex}
+\input{cv/honors.tex}
+% \input{cv/writing.tex}
+% \input{cv/committees.tex}
+%----------------------------------------------------------------
+\end{document}
