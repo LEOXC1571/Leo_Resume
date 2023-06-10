@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.12)  31 MAY 2023 17:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.3.12)  8 JUN 2023 14:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -256,9 +256,9 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 82.
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 102.
+(Font)              <9> on input line 117.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 102.
+(Font)              <6> on input line 117.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -275,7 +275,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [2] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: C5F852D8FDED235BE61F5EB9DE4B0E1B;713.
+(rerunfilecheck)             Checksum: F720545E5FDF014DD724A6113F6D4FEF;713.
  ) 
 Here is how much of TeX's memory you used:
  8779 strings out of 478994
@@ -284,9 +284,9 @@ Here is how much of TeX's memory you used:
  26158 multiletter control sequences out of 15000+600000
  408326 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,11n,74p,330b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,11n,74p,331b,329s stack positions out of 5000i,500n,10000p,200000b,80000s
 {d:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><d:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on cv.pdf (2 pages, 147520 bytes).
+Output written on cv.pdf (2 pages, 147532 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  81 compressed objects within 1 object stream
