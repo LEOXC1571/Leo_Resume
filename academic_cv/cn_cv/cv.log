@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.12)  31 MAY 2023 17:07
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.12)  13 JUN 2023 08:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -599,7 +599,7 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 LaTeX Warning: Unused global option(s):
     [AutoFakeBold].
 
-No file cv.aux.
+(./cv.aux)
 \openout1 = `cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
@@ -622,7 +622,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
 LaTeX Font Info:    ... okay on input line 67.
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 67.
 
 *geometry* driver: auto-detecting
@@ -706,12 +706,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 67.
 LaTeX Info: Redefining \pageref on input line 67.
 LaTeX Info: Redefining \nameref on input line 67.
+ (./cv.out) (./cv.out)
 \@outlinefile=\write6
 \openout6 = `cv.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \headertextwidth=\skip82
 \headerphotowidth=\skip83
@@ -727,6 +724,7 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 6.99925pt on input line 72.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 72.
+
 
 LaTeX Font Warning: Font shape `TU/sarasa-mono-sc-nerd(0)/m/sc' undefined
 (Font)              using `TU/sarasa-mono-sc-nerd(0)/m/n' instead on input line 72.
@@ -797,19 +795,13 @@ Underfull \hbox (badness 10000) in alignment at lines 83--107
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `cv.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cv.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `cv.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31396 strings out of 476919
- 620984 string characters out of 5825424
- 1114008 words of memory out of 5000000
+ 31402 strings out of 476919
+ 621026 string characters out of 5825424
+ 1114172 words of memory out of 5000000
  50848 multiletter control sequences out of 15000+600000
  406113 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
