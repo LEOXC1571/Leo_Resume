@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{edm_icml_hoogeboom_22}
+{\sc E.~Hoogeboom, V.~G. Satorras, C.~Vignac, and M.~Welling}, {\em Equivariant
+  diffusion for molecule generation in 3{D}}, in Proceedings of the 39th
+  International Conference on Machine Learning, vol.~162 of Proceedings of
+  Machine Learning Research, PMLR, 17--23 Jul 2022, pp.~8867--8887.
+
+\bibitem{mdm_aaai_huang_22}
+{\sc L.~Huang, H.~Zhang, T.~Xu, and K.-C. Wong}, {\em Mdm: Molecular diffusion
+  model for 3d molecule generation}, 2022.
+
+\bibitem{schnet_schutt_17}
+{\sc K.~Sch\"{u}tt, P.-J. Kindermans, H.~E. Sauceda~Felix, S.~Chmiela,
+  A.~Tkatchenko, and K.-R. M\"{u}ller}, {\em Schnet: A continuous-filter
+  convolutional neural network for modeling quantum interactions}, in Advances
+  in Neural Information Processing Systems, vol.~30, Curran Associates, Inc.,
+  2017.
+
+\end{thebibliography}
