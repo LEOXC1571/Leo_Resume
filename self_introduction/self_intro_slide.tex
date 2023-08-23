@@ -10,7 +10,7 @@
 \title{Self introduction and future plans}
 \subtitle{}
 \institute{}
-\date{2023/6/17}
+\date{2023/7/12}
 \usepackage{zjgsu}
 \setsansfont{Times New Roman}
 \setmainfont{Times New Roman}
@@ -128,15 +128,30 @@
     \end{figure}
 \end{frame}
 
-\begin{frame}{Diffusion-based molecule generation}
+\begin{frame}{Geometric-facilitated Denoising Diffusion Model for 3D Molecule Generation}
     \begin{itemize}
-        \item Build up a framework for de novo molecule generation.
-        \item Deisgn the E(n) dual-track denoising kernel for effective molecular learning.
-        \item The atom-pair track predicts the influence of inter-atomic forces on atom coordinates and atomic numbers via global Transformer. Then the pair-wise features get updated by the same structure, which incorporates triplet angle information into pair-wise features.
-        \item Build up a loss function that facilitate correct valencies of atoms.
+        \item Comprehensive utilization of spatial information to capture multi-body interactions among atoms, which is crucial for molecular learning and stabilities of generated samples.
+        \item Introduction of a carefully designed GFLoss to facilitate the formation of bonds, addressing the discrete nature of graphs in an efficient manner.
+        \item Proposal of DTN as an alternative to global graph convolutions which enables the model to capture both global and local information effectively.
     \end{itemize}
 \end{frame}
 
+\begin{frame}{Geometric-facilitated Denoising Diffusion Model for 3D Molecule Generation}
+    \begin{figure}[H]
+        \centering
+        \subfigure{
+            \label{gfmdiff}
+            \includegraphics[width=0.7\linewidth]{figure/overview_gfmdiff.png}
+        }
+        \hspace{0mm}
+        \subfigure{
+            \label{gfloss}
+            \includegraphics[width=0.3\linewidth]{figure/gfloss.png}
+        }
+        % \caption{Illustrations of GFMDiff and GFLoss}
+        \label{gen_illustration}
+    \end{figure}
+\end{frame}
 
 \section{Future plans}
 \begin{frame}{Future plans}
