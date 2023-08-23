@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.12)  11 JUL 2023 16:05
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.12)  23 AUG 2023 13:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -634,18 +634,18 @@ LaTeX Info: Redefining \selectfont on input line 67.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
-* v-part:(T,H,B)=(14.22636pt, 816.59412pt, 14.22636pt)
+* v-part:(T,H,B)=(28.45274pt, 788.14136pt, 28.45274pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=540.60239pt
-* \textheight=816.59412pt
+* \textheight=788.14136pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
-* \topmargin=-95.04362pt
+* \topmargin=-80.81725pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
-* \footskip=14.22636pt
+* \footskip=5.69046pt
 * \marginparwidth=57.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
@@ -737,6 +737,48 @@ LaTeX Font Info:    Font shape `TU/sarasa-mono-sc-nerd(0)/m/sl' in size <9> not 
 (Font)              Font shape `TU/sarasa-mono-sc-nerd(0)/m/it' tried instead on input line 10.
 LaTeX Font Info:    Font shape `TU/sarasa-mono-sc-nerd(0)/m/sl' in size <8> not available
 (Font)              Font shape `TU/sarasa-mono-sc-nerd(0)/m/it' tried instead on input line 10.
+) (./cv/publications.tex) (./cv/internship.tex
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+[]\TU/sarasa-mono-sc-nerd(0)/m/n/9 创造性提出基于全局注意力的E(n)等变图网络，结合原子自身性质与分子间相互作用，实现时下最优的3D分子学习性能。同时将此图
+ []
+
+) (./cv/experience.tex
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]\TU/sarasa-mono-sc-nerd(0)/m/n/9 将扩散模型自身特点与原子间相互作用力本质相结合，构建出既能学习不同原子化学特性，又能学习任意原子间的相互作用强弱的全局
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]\TU/sarasa-mono-sc-nerd(0)/m/n/9 构建HFAGNN模型，运用Hybrid模块，学习原子自身化学性质，同时运用Bessel方程提取2元组与3元组间的原子3D信息，将分子2D拓扑
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
+[]\TU/sarasa-mono-sc-nerd(0)/m/n/9 分别基于交叉熵损失，基于Tag负采样的二部图损失和改进知识图谱算法TransT，构建目标函数，分别用于推动生成更公平的推荐和提
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+[]\TU/sarasa-mono-sc-nerd(0)/m/n/9 为解决标签感知推荐系统中标签的模糊性和冗余性，构建TFGCF模型以实现对标签信息背后蕴含的隐式反馈的充分提取，模型较SOTA提
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+[]\TU/sarasa-mono-sc-nerd(0)/m/n/9 针对<用户-标签-商品>三元组分别基于<用户-标签>和<标签-商品>构建轻量化图结构。运用GCN进行信息传递和表征聚合，同时根据改
+ []
+
+[1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+[]\TU/sarasa-mono-sc-nerd(0)/m/n/9 基于真实电商数据，实现商品从盈利能力、畅销水平和退货率等方面的价值评估，同时基于价值对用户群体进行有效划分，最后对用户
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
+[]\TU/sarasa-mono-sc-nerd(0)/m/n/9 基于LightGCN模型，创新性的提出了WideGCN模型，实现对基于商品和用户的16维特征这一旁信息的有效利用。推荐性能较SOTA模型有
+ []
+
 ) (./cv/skills.tex
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 9.00096pt on input line 16.
@@ -746,52 +788,7 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 8.99904pt on input line 16.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.99936pt on input line 16.
-) (./cv/internship.tex
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-[]\TU/sarasa-mono-sc-nerd(0)/m/n/9 创造性提出基于全局注意力的E(n)等变图网络，结合原子自身性质与分子间相互作用，实现时下最优的3D分子学习性能。同时将此图
- []
-
-) (./cv/experience.tex
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
-[]\TU/sarasa-mono-sc-nerd(0)/m/n/9 分别基于交叉熵损失，基于Tag负采样的二部图损失和改进知识图谱算法TransT，构建目标函数，分别用于推动生成更公平的推荐和提
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
-[]\TU/sarasa-mono-sc-nerd(0)/m/n/9 构建HFAGNN模型，运用Hybrid模块，学习原子自身化学性质，同时运用Bessel方程提取2元组与3元组间的原子3D信息，将分子2D拓扑
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
-[]\TU/sarasa-mono-sc-nerd(0)/m/n/9 将扩散模型自身特点与原子间相互作用力本质相结合，构建出既能学习不同原子化学特性，又能学习任意原子间的相互作用强弱的全局
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-[]\TU/sarasa-mono-sc-nerd(0)/m/n/9 基于真实电商数据，实现商品从盈利能力、畅销水平和退货率等方面的价值评估，同时基于价值对用户群体进行有效划分，最后对用户
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-[]\TU/sarasa-mono-sc-nerd(0)/m/n/9 基于LightGCN模型，创新性的提出了WideGCN模型，实现对基于商品和用户的16维特征这一旁信息的有效利用。推荐性能较SOTA模型有
- []
-
-
-Overfull \hbox (2.66669pt too wide) in paragraph at lines 158--186
-   [] 
- []
-
-) (./cv/honors.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 16.0pt on input line 1.
- [1
-
-]
-Underfull \hbox (badness 10000) in alignment at lines 83--107
-[][][]
- []
-
-) [2] (./cv.aux)
+) (./cv/honors.tex) [2] (./cv.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -799,11 +796,11 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31402 strings out of 476919
- 621026 string characters out of 5825424
- 1114172 words of memory out of 5000000
+ 31404 strings out of 476919
+ 620997 string characters out of 5825424
+ 1115187 words of memory out of 5000000
  50848 multiletter control sequences out of 15000+600000
- 406113 words of font info for 103 fonts, out of 8000000 for 9000
+ 406105 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  127i,12n,130p,591b,868s stack positions out of 5000i,500n,10000p,200000b,80000s
 
