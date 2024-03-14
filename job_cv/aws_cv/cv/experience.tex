@@ -3,20 +3,51 @@
 %	内容
 %----------------------------------------------------------------
 \begin{cventries}
-  
+
+%---------------------------------------------------------
+\cventry
+{第一作者} % Job title
+{真实图数据的分布外泛化} % Organization
+{论文(投稿至ICML-24)} % Location
+{2023.10-2024.02} % Date(s)
+{
+  \begin{cvitems} 
+    \item {针对图OOD泛化领域的方法在手工数据集上表现良好但在真实数据中表现不佳的现状，提出更符合真实场景的图OOD泛化算法；}
+    \item {不同于先前因果推断方法强调挖掘变量间的因果关系或独立性关系，本文从真实数据出发，提出发掘变量间的条件依赖性；}
+    \item {根据变量间的相互条件依赖关系，构建变分推断的框架DEROG，结合EM算法对提出的DEROG框架进行优化；}
+    \item {提出更符合真实场景的环境对齐函数和图主干的对比损失，提升DEROG对隐变量的推理能力；}
+    \item {文章 “Improving Graph Out-of-distribution Generalization on Real-world Data” 投稿至机器学习顶会 (CCF-A) ICML-24。}
+  \end{cvitems}
+}
+
+%---------------------------------------------------------
+\cventry
+{第二作者} % Job title
+{异构图预训练上的对抗攻击方法} % Organization
+{论文(投稿至KDD-24)} % Location
+{2023.10-2024.02} % Date(s)
+{
+  \begin{cvitems} 
+    \item {目前大量的异构图预训练模型被提出，但缺少针对其鲁棒性的研究，本文首次提出了针对异构图预训练的无监督攻击模型HGAC；}
+    \item {HGAC考虑了攻击的隐蔽性和合理性，采用边缘重连的攻击策略，并使用节点聚类作为伪标签来指导攻击的优化；}
+    \item {在节点分类、节点聚类、链接预测、可视化四种下游任务都证明了HGAC良好的攻击性能；}
+    \item {文章 “Unsupervised Heterogeneous Graph Rewriting Attack via Node Clustering” 投稿至数据挖掘顶会 (CCF-A) KDD-24。}
+  \end{cvitems}
+}
+
 %---------------------------------------------------------
 \cventry
 {第一作者} % Job title
 {几何辅助的3D分子图扩散生成} % Organization
-{论文(投稿至AAAI-24)} % Location
-{2022.11-至今} % Date(s)
+{论文} % Location
+{2022.11-2023.08} % Date(s)
 {
   \begin{cvitems} 
-    \item {基于扩散生成模型，构建去噪扩散概率模型，生成创新且有效的3D分子结构；}
-    \item {将扩散模型自身特点与原子间相互作用力本质相结合，构建出既能学习不同原子化学特性，又能学习任意原子间的相互作用强弱的全局
-    注意力机制，构建创新的等变图网络作为去噪过程的内核；}
-    \item {改进原有采样策略，引导模型在生成大分子过程中做出更多探索，提升生成分子的创新性；}
-    \item {文章 “Geometric-facilitated denoising diffusion model for 3D molecule generation” 投稿至人工智能顶会 (CCF-A) AAAI-24。}
+    \item {基于扩散生成模型，构建去噪扩散概率模型GFMDiff，生成创新且有效的3D分子结构；}
+    \item {将扩散模型自身特点与原子间相互作用力本质相结合，构建出既能学习不同原子化学特性，又能学习任意原子间的相互作用强弱
+    的全局注意力机制，构建创新的等变图网络作为去噪过程的内核；}
+    \item {针对扩散模型在离散图数据中表现不佳的问题，创新性提出GFLoss，通过几何信息和理化性质引导模型生成真实且合理的图结构；}
+    \item {文章“Geometric-facilitated denoising diffusion model for 3D molecule generation”已被人工智能顶会(CCF-A)AAAI-24 接收。}
   \end{cvitems}
 }
 
@@ -83,19 +114,19 @@
 % }
 
 %---------------------------------------------------------
-\cventry
-{第一作者} % 职位名称
-{\href{https://www.frontiersin.org/articles/10.3389/fbioe.2022.827408/full}{基于深度强化学习的微分追逃策略研究}} % 组织
-{论文} % 位置
-{2021.09-2022.02} % 日期(s)
-{
-  \begin{cvitems} % 任务/职责描述
-    \item {对微分追逃博弈问题构建运动学方程，分别对追逃和逃逸策略进行运动学求解。}
-    \item {运用DQN和DDPG深度强化学习算法，实现了智能体的自动逃逸。}
-    \item {对Reward进行改进，进一步提升DQN模型训练智能体的逃逸成功率。}
-    \item {该文章 “Pursuit and Evasion Strategy of a Differential Game Based on Deep Reinforcement Learning” 发表于Frontiers in Bioengineering and Biotechnology (中科院二区 / JCR Q1)。}
-  \end{cvitems}
-}
+% \cventry
+% {第一作者} % 职位名称
+% {\href{https://www.frontiersin.org/articles/10.3389/fbioe.2022.827408/full}{基于深度强化学习的微分追逃策略研究}} % 组织
+% {论文} % 位置
+% {2021.09-2022.02} % 日期(s)
+% {
+%   \begin{cvitems} % 任务/职责描述
+%     \item {对微分追逃博弈问题构建运动学方程，分别对追逃和逃逸策略进行运动学求解。}
+%     \item {运用DQN和DDPG深度强化学习算法，实现了智能体的自动逃逸。}
+%     \item {对Reward进行改进，进一步提升DQN模型训练智能体的逃逸成功率。}
+%     \item {该文章 “Pursuit and Evasion Strategy of a Differential Game Based on Deep Reinforcement Learning” 发表于Frontiers in Bioengineering and Biotechnology (中科院二区 / JCR Q1)。}
+%   \end{cvitems}
+% }
 
 %---------------------------------------------------------
 % \cventry
